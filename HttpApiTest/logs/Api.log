@@ -1,0 +1,4 @@
+2017-12-16 15:42:08 ERROR main [tools.AssertTool]error(line:61)assertEqualsInt(int actualInt,int expectInt,String message):
+error!:int相等校验失败
+预期结果串为：201
+实际结果为：200

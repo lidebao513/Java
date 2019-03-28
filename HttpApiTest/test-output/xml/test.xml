@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <parameter name="username"  value="admin"/>
+    <parameter name="password"  value="admin"/>
+    <test name="apiTest" >
+        <classes>
+            <class name="apis.Body" >
+                <methods>
+                    <include name="jsonBodyTest"/>
+                    <include name="formDataBodyTest"/>
+                    <include name="fileUploadBodyTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

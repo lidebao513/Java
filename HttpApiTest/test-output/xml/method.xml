@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="apiTest" >
+        <classes>
+            <class name="parse.responseBody" >
+                <methods>
+                    <include name="singleJsonTest"/>
+                    <include name="multiJsonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

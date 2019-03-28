@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="2810" started-at="2017-12-17T07:51:27Z" finished-at="2017-12-17T07:51:30Z">
+    <groups>
+      <group name="P0">
+        <method signature="responseBody.multiJsonArrayTest()[pri:0, instance:parse.responseBody@1b40d5f0]" name="multiJsonArrayTest" class="parse.responseBody"/>
+      </group> <!-- P0 -->
+      <group name="smoke">
+        <method signature="responseBody.multiJsonArrayTest()[pri:0, instance:parse.responseBody@1b40d5f0]" name="multiJsonArrayTest" class="parse.responseBody"/>
+        <method signature="responseCode.responseCodeTest()[pri:0, instance:parse.responseCode@5a01ccaa]" name="responseCodeTest" class="parse.responseCode"/>
+        <method signature="responseCookie.responseCookieTest()[pri:0, instance:parse.responseCookie@47f37ef1]" name="responseCookieTest" class="parse.responseCookie"/>
+        <method signature="responseHeader.responseHeaderTest()[pri:0, instance:parse.responseHeader@71c7db30]" name="responseHeaderTest" class="parse.responseHeader"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="apiTest" duration-ms="2810" started-at="2017-12-17T07:51:27Z" finished-at="2017-12-17T07:51:30Z">
+      <class name="parse.responseHeader">
+        <test-method status="PASS" signature="responseHeaderTest()[pri:0, instance:parse.responseHeader@71c7db30]" name="responseHeaderTest" duration-ms="29" started-at="2017-12-17T15:51:30Z" finished-at="2017-12-17T15:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseHeaderTest -->
+      </class> <!-- parse.responseHeader -->
+      <class name="parse.responseCode">
+        <test-method status="PASS" signature="responseCodeTest()[pri:0, instance:parse.responseCode@5a01ccaa]" name="responseCodeTest" duration-ms="24" started-at="2017-12-17T15:51:30Z" finished-at="2017-12-17T15:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseCodeTest -->
+      </class> <!-- parse.responseCode -->
+      <class name="parse.responseBody">
+        <test-method status="PASS" signature="multiJsonArrayTest()[pri:0, instance:parse.responseBody@1b40d5f0]" name="multiJsonArrayTest" duration-ms="2654" started-at="2017-12-17T15:51:27Z" finished-at="2017-12-17T15:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiJsonArrayTest -->
+      </class> <!-- parse.responseBody -->
+      <class name="parse.responseCookie">
+        <test-method status="PASS" signature="responseCookieTest()[pri:0, instance:parse.responseCookie@47f37ef1]" name="responseCookieTest" duration-ms="86" started-at="2017-12-17T15:51:29Z" finished-at="2017-12-17T15:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseCookieTest -->
+      </class> <!-- parse.responseCookie -->
+    </test> <!-- apiTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
